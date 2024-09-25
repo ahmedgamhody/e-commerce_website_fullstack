@@ -1,0 +1,34 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide:hover {
+  cursor: grab;
+}
+
+.swiper-slide:active {
+  cursor: grabbing;
+}
+
+@media (max-width: 600px) {
+  .SwiperSlideContainer {
+    background-color: #fbfbf1;
+  }
+}
